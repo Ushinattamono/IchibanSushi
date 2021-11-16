@@ -11,4 +11,53 @@ header{
     display: flex;
     width: 1000px;
     margin: auto;
+    align-items: center;
+    background-color:coral;
   }
+
+/*Header Styles*/
+h1{
+    padding: 0 0 0 100px;
+}
+  
+/*Navigation*/
+nav{
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(235, 85, 26);
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    flex: 2 1 0;
+    text-align: center;
+}
+
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+  }
+
+nav li:hover{
+    background-color: lightsalmon;
+}
+
+nav li:hover a{
+    color: white;
+}
+
+  /*End Navigation*/
+
+  /*Google Map*/
+.gmap_canvas{
+    text-align: center;
+}
