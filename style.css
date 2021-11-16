@@ -1,0 +1,10 @@
+body{
+    display:flex;
+    background-image: url(images/backgroundleft.jpg), url(images/backgroundright.jpg);
+    background-size: 50%;
+    background-color: #eb551a;
+    background-position: left top, right top;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed;
+    flex-direction: column;
+}
